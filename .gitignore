@@ -1,0 +1,102 @@
+#OFFICE Temp Files
+/**/docs/~$*.docx
+/**/docs/~$*.xlsx
+/**/docs/~*.tmp
+
+# Code Composer Studio GITIGNORE - in relation to root folder
+/firmware/**/RAM/
+
+# ST Visual Develop GITIGNORE - in relation to root folder
+/firmware/**/Debug/
+/firmware/**/*_Programmer/
+/firmware/**/Release/
+/firmware/**/*.spy
+/firmware/**/*.pdb
+/firmware/**/*.wdb
+#/firmware/**/*.dep
+#/firmware/**/*.stp
+/firmware/**/TAGS*.txt
+#/firmware/**/*.stw
+#/firmware/**/*.wed
+
+# MPLAB GITIGNORE - in relation to root folder
+/firmware/**/*.X/build/
+/firmware/**/*.X/debug/
+/firmware/**/*.X/dist/
+/firmware/**/*.X/nbproject/private/
+/firmware/**/*.X/nbproject/Makefile-*
+/firmware/**/*.X/nbproject/Package-*
+
+# TRUESTUDIO GITIGNORE - in relation to root folder
+    # Object files
+/firmware/**/*.o
+/firmware/**/*.ko
+/firmware/**/*.obj
+/firmware/**/*.elf
+/firmware/**/*.elf.launch
+
+    # Precompiled Headers
+/firmware/**/*.gch
+/firmware/**/*.pch
+
+    # Libraries
+/firmware/**/*.lib
+/firmware/**/*.a
+/firmware/**/*.la
+/firmware/**/*.lo
+
+    # Shared objects (inc. Windows DLLs)
+/firmware/**/*.dll
+/firmware/**/*.so
+/firmware/**/*.so.*
+/firmware/**/*.dylib
+
+    # Executables
+/firmware/**/*.exe
+/firmware/**/*.out
+/firmware/**/*.app
+/firmware/**/*.i*86
+/firmware/**/*.x86_64
+/firmware/**/*.hex
+
+    # Debug files
+/firmware/**/*.dSYM/
+/firmware/**/*.su
+/firmware/**/Debug/
+
+    #Folders
+/firmware/**/.settings/
+
+# ATMEL STUDIO  
+	#Build Directories
+/firmware/**/[Dd]ebug/
+/firmware/**/[Rr]elease/
+/firmware/**/modules/
+/firmware/**/examples/
+/firmware/**/doxygen/
+
+	#Build Results
+/firmware/**/*.d
+/firmware/**/*.eep
+/firmware/**/*.map
+/firmware/**/*.srec
+
+	#Doxygen
+/firmware/**/*.dox
+	
+	#User Specific Files
+/firmware/**/*.atsuo
+
+#Eagle production files
+/**/*.b#*
+/**/*.s#*
+
+#Circuit Studio Files
+/hardware/**/__Previews/
+/hardware/**/History/
+/hardware/**/*.*Previews
+/hardware/**/*.LOG
+/hardware/**/*.htm
+/hardware/**/Outputs/
+/hardware/**/Logs/
+/hardware/**/.svn/
